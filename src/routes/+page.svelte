@@ -28,4 +28,8 @@
     padding: 0;
     margin: 0;
   }
+  h1 {
+    text-shadow: #ec4899 3px 0 8px;
+    color: lightpink;
+  }
 </style>

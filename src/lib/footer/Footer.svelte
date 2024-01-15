@@ -23,6 +23,7 @@
   </h4>
 </footer>
 
+<!---adding neon light effect on hover--->
 <style>
   a:hover {
     text-shadow: #ec4899 3px 0 8px;
