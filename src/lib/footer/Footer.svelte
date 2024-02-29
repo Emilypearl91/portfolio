@@ -8,15 +8,17 @@
         <a href="https://github.com/Emilypearl91">Github</a>
       </li>
       <li class="text-pink-500 text-lg text-left p-1">
-        <a href="/">Resume</a>
+        <a href="/Resume">Resume</a>
       </li>
     </ul>
     <ul class="m-2 text-center flex flex-col">
       <li class="text-pink-500 text-lg text-left p-1">
-        <a href="/">Project one</a>
+        <a href="https://tossed.netlify.app/">Tossed</a>
       </li>
       <li class="text-pink-500 text-lg text-left p-1">
-        <a href="/">Project Two</a>
+        <a href="https://emilypearl91.github.io/book-reading-prompt/"
+          >Book Prompt Generator</a
+        >
       </li>
       <li class="text-pink-500 text-lg text-left p-1">
         <a href="/">Project Three</a>

@@ -12,11 +12,17 @@
     </p>
   </section>
   <section class=" max-w-72 max-h-96 bg-zinc-400 rounded-2xl">
-    <div class="w-60 h-40 bg-black m-auto mt-4"></div>
-    <p class="text-lg text-black p-4">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-      reprehenderit nihil quidem impedit assumenda hic voluptatem aut
-      laudantium.
+    <img
+      src="/book-prompt-project.png"
+      alt="website with a grey rectangle and black text of book prompts"
+      class="w-60 m-auto mt-4"
+    />
+    <h2 class="text-3xl text-black text-center font-bold p-2">
+      Book Prompt Generator
+    </h2>
+    <p class="text-lg text-black p-2">
+      this project is made using vanilla HTML, CSS and JavaScript to create a
+      basic random generator for your next read.
     </p>
   </section>
   <section class=" max-w-72 max-h-96 bg-zinc-400 rounded-2xl">
