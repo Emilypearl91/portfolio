@@ -1,8 +1,7 @@
 <nav>
   <ul class="flex flex-row justify-center">
-    <li class="text-pink-500 m-4 text-xl"><a href="/">About Me</a></li>
-    <li class="text-pink-500 m-4 text-xl"><a href="/">Projects</a></li>
-    <li class="text-pink-500 m-4 text-xl"><a href="/">Resume</a></li>
+    <li class="text-pink-500 m-4 text-xl"><a href="/">Home</a></li>
+    <li class="text-pink-500 m-4 text-xl"><a href="/Resume">Resume</a></li>
   </ul>
 </nav>
 
