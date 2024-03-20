@@ -20,9 +20,6 @@
           >Book Prompt Generator</a
         >
       </li>
-      <li class="text-pink-500 text-lg text-left p-1">
-        <a href="/">Project Three</a>
-      </li>
     </ul>
     <ul class="m-2 text-center flex flex-col">
       <li class="text-pink-500 text-lg text-left p-1">
