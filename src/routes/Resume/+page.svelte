@@ -7,8 +7,10 @@
     <section>
       <h1>Emily Seafoot</h1>
       <ul>
-        <li><a href="/">github</a></li>
-        <li><a href="/">linkedIn</a></li>
+        <li><a href="https://github.com/Emilypearl91">Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/emilyseafoot/">LinkedIn</a>
+        </li>
       </ul>
 
       <h3>education</h3>
