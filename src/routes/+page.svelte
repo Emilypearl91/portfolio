@@ -5,7 +5,6 @@
 <body>
   <h1 class="text-pink-500 text-center text-4xl">About Me</h1>
   <section class="m-auto flex flex-row">
-    <!---place holder for image --->
     <img
       class="w-60 h-60 rounded-full bg-zinc-400 m-auto"
       src="/photo-of-me.JPG"
@@ -45,7 +44,7 @@
         class="w-[500px] m-auto"
       />
 
-      <p class="text-lg w-[60ch] m-auto">
+      <p class="text-xl w-[60ch] m-auto">
         The project Tossed is a salad shop that is built with SvelteKit,
         Skeleton UI and Tailwind. This was a project for my program at Sait
         originally, creating a layout using svelte components and SkeletonUI. I
@@ -71,13 +70,43 @@
         class="w-[500px] m-auto mt-4"
       />
 
-      <p class="text-lg p-2 w-[60ch] m-auto">
+      <p class="text-xl p-2 w-[60ch] m-auto">
         This project is made using vanilla HTML, CSS and JavaScript to create a
         basic random generator for your next read. I wanted to create something
         that I would use in my everyday life and that would combine my passion
         for coding with my love of reading.
       </p>
     </section>
+  </section>
+  <!--Currently Working on section-->
+  <h1 class="text-pink-500 text-center text-4xl">Currently Working On</h1>
+  <!--The Paperback Library-->
+  <h2 class="text-3xl text-center font-bold p-4">The Paperback Library</h2>
+  <article class="w-24 m-auto">
+    <a href="https://paperback-library.netlify.app/"
+      ><h4 class=" text-xl font-bold text-violet-400 hover:text-pink-500">
+        Live Site
+      </h4></a
+    >
+  </article>
+  <section class=" flex flex-row justify-around">
+    <img
+      src="/paperback-library-home.png"
+      alt="black, pink, purple website with pink progress bar, books and favorite quote"
+      class="w-[500px] m-auto border-2 border-gray-400"
+    />
+
+    <p class="text-xl w-[60ch] m-auto">
+      The Paperback Library is a project that im currently working on. It is
+      going to be a place to catalog books, track reading goals and journal
+      thoughts. As well as be able to see all the reading data you have on how
+      many books you have read,total number of pages read out of all the books
+      you have read and how many books you have read from the list of books you
+      want to read. These are the main features of the project, in the future I
+      will be turning this into an app as well and creating a space for users to
+      be able to connect with each other by creating book clubs. to store the
+      book data and have user authentication I am using supabase.
+    </p>
   </section>
   <Footer></Footer>
 </body>
