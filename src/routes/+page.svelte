@@ -78,36 +78,7 @@
       </p>
     </section>
   </section>
-  <!--Currently Working on section-->
-  <h1 class="text-pink-500 text-center text-4xl">Currently Working On</h1>
-  <!--The Paperback Library-->
-  <h2 class="text-3xl text-center font-bold p-4">The Paperback Library</h2>
-  <article class="w-24 m-auto">
-    <a href="https://paperback-library.netlify.app/"
-      ><h4 class=" text-xl font-bold text-violet-400 hover:text-pink-500">
-        Live Site
-      </h4></a
-    >
-  </article>
-  <section class=" flex flex-row justify-around">
-    <img
-      src="/paperback-library-home.png"
-      alt="black, pink, purple website with pink progress bar, books and favorite quote"
-      class="w-[500px] m-auto border-2 border-gray-400"
-    />
 
-    <p class="text-xl w-[60ch] m-auto">
-      The Paperback Library is a project that im currently working on. It is
-      going to be a place to catalog books, track reading goals and journal
-      thoughts. As well as be able to see all the reading data you have on how
-      many books you have read,total number of pages read out of all the books
-      you have read and how many books you have read from the list of books you
-      want to read. These are the main features of the project, in the future I
-      will be turning this into an app as well and creating a space for users to
-      be able to connect with each other by creating book clubs. to store the
-      book data and have user authentication I am using supabase.
-    </p>
-  </section>
   <Footer></Footer>
 </body>
 
