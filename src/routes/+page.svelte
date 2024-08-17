@@ -28,6 +28,34 @@
   <!--project section-->
   <h1 class="text-pink-500 text-center text-4xl">Projects</h1>
   <section class="m-auto p-2">
+    <!--yarn project helper-->
+    <section>
+      <h2 class="text-3xl text-center font-bold p-4">Yarn Project Helper</h2>
+      <article class="w-24 m-auto">
+        <a href="https://yarn-project-helper.netlify.app/"
+          ><h4 class=" text-xl font-bold text-violet-400 hover:text-pink-500">
+            Live Site
+          </h4></a
+        >
+      </article>
+      <!-- project image -->
+      <section class=" flex flex-row">
+        <img
+          src="/yarn-project-helper.png"
+          alt="light blue knit object and website description"
+          class="w-[500px] m-auto mt-4"
+        />
+        <!-- project website description -->
+        <p class="text-xl p-2 w-[60ch] m-auto">
+          This project is made using svelte, tailwind css and skeleton ui custom
+          theme. I create this project to combine a long time hobby of mine with
+          coding by creating a website that I could use throughout the process
+          of making my knit or crochet project. By creating this there is a set
+          place for all the things I look for on random patterns and notebooks ,
+          thus allowing my knit and crochet projects more portable.
+        </p>
+      </section>
+    </section>
     <!--Tossed salad shop project-->
     <h2 class="text-3xl text-center font-bold p-4">Tossed</h2>
     <article class="w-24 m-auto">
