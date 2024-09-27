@@ -50,4 +50,22 @@
       </p>
     </div>
   </section>
+  <h1 class="m-auto text-center text-xl">About me</h1>
+  <img
+    src="/photo-of-me.JPG"
+    alt="photo of emily"
+    class="max-w-52 max-h-52 rounded-full m-auto"
+  />
+  <p class="max-w-[80ch] m-auto">
+    Hello! My name is Emily and I am from Calgary, Alberta. My background in the
+    arts is how I found a passion for coding. I have been a classically trained
+    flutist for the past 10 years. While in highschool I graduated with a
+    certificate of excellence in the arts, from there I chose to branch out and
+    try something new. I went into digital design where I learned to design
+    branding, logos, website design mockups, wireframes and write copywriting
+    for brands. Through that I got to see the beginning steps in creating and
+    coding a portfolio website using html, css and javascript, I really enjoyed
+    the whole process and coding and chose to pursue that passion further at
+    SAIT in the web developer program.
+  </p>
 </body>
