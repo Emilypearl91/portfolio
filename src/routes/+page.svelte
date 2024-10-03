@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<body>
-  <h1 class="m-auto text-center text-xl">Projects</h1>
+<body class=" bg-gradient-to-t bg-[#CDCDCD] from-[#AA4465]">
+  <h1 id="projects" class="m-auto text-center text-xl">Projects</h1>
   <p class="max-w-[80ch] m-auto">
     The projects showcased are ones that I am most proud of and are currently
     working on. I started learning web development a year ago and since then I
@@ -50,7 +50,7 @@
       </p>
     </div>
   </section>
-  <h1 class="m-auto text-center text-xl">About me</h1>
+  <h1 id="about" class="m-auto text-center text-xl">About me</h1>
   <img
     src="/photo-of-me.JPG"
     alt="photo of emily"
