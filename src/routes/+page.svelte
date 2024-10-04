@@ -41,10 +41,18 @@
         skeleton ui and tailwind css.
       </p>
     </div>
-    <!-- <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
-      <p class="text-black m-auto">coming soon...</p>
-    </div> -->
     <div class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three">
+      <p
+        class="text-center text-center m-24
+      "
+      >
+        coming soon...
+      </p>
+    </div>
+
+    <div
+      class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three opacity-0 hover:opacity-100"
+    >
       <p class=" m-auto p-2">
         A project that is currently in the works is getting the burger if the
         day from the bob's burger api and rendering it to be on a sheet of
