@@ -1,7 +1,10 @@
 <script>
 </script>
 
-<body class=" bg-gradient-to-t bg-[#CDCDCD] from-[#AA4465]">
+<body
+  class=" bg-gradient-to-t bg-[#CDCDCD] from-[#AA4465] rounded-md
+"
+>
   <h1 id="projects" class="m-auto text-center text-xl">Projects</h1>
   <p class="max-w-[80ch] m-auto">
     The projects showcased are ones that I am most proud of and are currently
@@ -11,9 +14,9 @@
     these projects and really enjoy the debugging process and obstacles I have
     faced while building these projects.
   </p>
-  <section class="">
-    <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
-      <p class="text-black m-auto max-w-[60ch]">
+  <section class="cards">
+    <div class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md one">
+      <p class=" m-auto max-w-[60ch] p-2">
         The yarn project helper was created with friend and family in mind, it
         is meant to replace the random sheets of paper and notebooks filled with
         tally marks to mark where you are in a fiber art projects. Allowing for
@@ -26,8 +29,11 @@
         storage.
       </p>
     </div>
-    <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
-      <p class="text-black m-auto">
+    <div
+      class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md
+    two"
+    >
+      <p class=" m-auto p-2">
         The blog project was created to work with supabase and svelte by
         creating a website that renders data from supabase. It was also created
         to share knowledge, opinions and advice on the hobbies I share with
@@ -35,13 +41,13 @@
         skeleton ui and tailwind css.
       </p>
     </div>
-    <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
+    <!-- <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
       <p class="text-black m-auto">coming soon...</p>
-    </div>
-    <div class="max-w-[600px] h-64 m-2 border border-2 border-black">
-      <p class="text-black m-auto">
+    </div> -->
+    <div class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three">
+      <p class=" m-auto p-2">
         A project that is currently in the works is getting the burger if the
-        day from the bob’s burger api and rendering it to be on a sheet of
+        day from the bob's burger api and rendering it to be on a sheet of
         paper. Another is a book journal project that uses a database and user
         authentication. This project will allow for readers to keep track of
         their reading goals and journal their thoughts and catalog their own
@@ -69,3 +75,26 @@
     SAIT in the web developer program.
   </p>
 </body>
+
+<style>
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 2rem;
+  }
+  .one {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .two {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+  }
+  .three {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+  }
+</style>
