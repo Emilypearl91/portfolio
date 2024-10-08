@@ -15,7 +15,7 @@
     faced while building these projects.
   </p>
   <section class="cards">
-    <div class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md one">
+    <div class="max-w-[500px] h-96 m-2 bg-[#DCC9AF] rounded-md one">
       <p class=" m-auto max-w-[60ch] p-2">
         The yarn project helper was created with friend and family in mind, it
         is meant to replace the random sheets of paper and notebooks filled with
@@ -85,6 +85,12 @@
 </body>
 
 <style>
+  body {
+    font-family: "Newsreader", serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+  }
   .cards {
     display: grid;
     grid-template-columns: auto;
