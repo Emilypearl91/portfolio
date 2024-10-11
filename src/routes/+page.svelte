@@ -15,7 +15,15 @@
     faced while building these projects.
   </p>
   <section class="cards">
-    <div class="max-w-[500px] h-96 m-2 bg-[#DCC9AF] rounded-md one">
+    <!-- yarn project helper -->
+    <a href="https://yarn-project-helper.netlify.app/" class="m-12"
+      ><img
+        src="/yarn-project-helper.png"
+        alt="light blue knit object and website description"
+        class="hover:shadow-black hover:shadow-lg max-w-[600px]"
+      /></a
+    >
+    <div class="max-w-[500px] h-96 m-2 bg-[#DCC9AF] rounded-md one m-auto">
       <p class=" m-auto max-w-[60ch] p-2">
         The yarn project helper was created with friend and family in mind, it
         is meant to replace the random sheets of paper and notebooks filled with
@@ -29,10 +37,18 @@
         storage.
       </p>
     </div>
-    <div
-      class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md
-    two"
+
+    <!-- blog project -->
+    <a
+      href="https://www.figma.com/proto/7hzvU9sBXftqr8wsXhTmKK/blog-project?page-id=0%3A1&node-id=1-2&t=hOXjMqUIlJN7S5jR-1"
+      class="blog-image m-12"
+      ><img
+        src="/homepage-blog-project.png"
+        alt="homepage of blog"
+        class="hover:shadow-black hover:shadow-lg max-w-[600px]"
+      /></a
     >
+    <div class="max-w-[500px] h-98 m-2 bg-[#DCC9AF] rounded-md two m-auto">
       <p class=" m-auto p-2">
         The blog project was created to work with supabase and svelte by
         creating a website that renders data from supabase. It was also created
@@ -41,6 +57,7 @@
         skeleton ui and tailwind css.
       </p>
     </div>
+
     <div class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three">
       <p
         class="text-center text-center m-24
@@ -51,7 +68,7 @@
     </div>
 
     <div
-      class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three opacity-0 hover:opacity-100"
+      class="max-w-[500px] h-64 m-2 bg-[#DCC9AF] rounded-md three opacity-0 hover:opacity-100 hover:shadow hover:shadow-black hover:shadow-lg"
     >
       <p class=" m-auto p-2">
         A project that is currently in the works is getting the burger if the
@@ -104,6 +121,11 @@
   .two {
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 3;
+  }
+  .blog-image {
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 3;
   }
   .three {
