@@ -1,7 +1,6 @@
 <script>
-  import "../app.css";
-  import Footer from "../lib/footer/Footer.svelte";
+	import '../app.css';
+	let { children } = $props();
 </script>
 
-<slot />
-<Footer></Footer>
+{@render children()}
